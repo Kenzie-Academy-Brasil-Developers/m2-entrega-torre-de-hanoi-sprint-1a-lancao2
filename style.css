@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+button {
+ cursor: pointer;
+}
+.back1page{
+    align-items: center;
+}
+.game {
+    display: flex;
+    gap: 10px;
+}
+main{
+    height: 100vh;
+    border-radius: 3px;
+    background-color: rgb(135, 223, 47);
+}
+
+.stem {
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.267);
+    width: 40vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: end;
+    align-items: center;
+}
+.box1{
+    border-radius: 20px;
+    border:2px solid rgba(0, 0, 0, 0.13);
+    background-color: rgb(54, 98, 243);
+    width: 98%;
+    height: 10vh;
+}
+.box2{
+    border-radius: 20px;
+    border:2px solid rgba(0, 0, 0, 0.13);
+    background-color: rgb(231, 91, 57);
+    width: 66%;
+    height: 10vh;
+}
+.box3{
+    border-radius: 20px;
+    border:2px solid rgba(0, 0, 0, 0.13);
+    background-color: rgb(89, 206, 85);
+    width: 34%;
+    height: 10vh;
+}
+.initialPoint{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 28vh;
+}
+.initialPoint h1{
+    text-align: center;
+    font-family: Lobster, cursive;
+}
+.initialPoint button{ 
+    font-family: Lobster, cursive;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 25px;
+    background-color: rgb(87, 128, 46);
+    border-color: rgb(113, 221, 4);
+    border: none;
+    width: 200px;
+    height: 30px;
+}
+#rule{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 95vw;
+    height: 90vh;
+    padding: 10px 0px 10px 0px;
+    border-radius: 10px;
+    background: rgb(135, 223, 47);
+
+    animation: go-up 1s;
+  }
+  
+  @keyframes go-up {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  } 
+
+#rule h2{
+    font-family: Lobster, cursive;
+    color: rgb(0, 22, 4);
+    font-size: 36px;
+
+}
+#rule p{
+    font-family: Indie Flower, cursive;
+    font-size: 16;
+}
+
+#rule h3{
+    font-family: Lobster, cursive;
+    color: rgb(0, 22, 4);
+    font-size: 20px;
+}
+#rule .start{
+    border-radius: 10px;
+    border: none;
+    margin-top: 4px;
+    width: 95vw;
+    font-size: 30px;
+    background-color: rgb(0, 90, 17);
+    color: rgb(135, 223, 47);
+    font-family: Lobster, cursive
+}
+#rule .back1page{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 4px;
+    width: 95vw;
+    font-size: 30px;
+    background-color: rgb(0, 90, 17);
+    color: rgb(135, 223, 47);
+}
+.back1page{
+    font-size: 25px;
+    font-family: Lobster, cursive;
+    line-height: 20px;
+    margin-top: 5px;
+    width: 97vw;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(0, 22, 4);
+    color: rgb(135, 223, 47);
+
+}
